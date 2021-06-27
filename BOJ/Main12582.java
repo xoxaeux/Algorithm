@@ -11,7 +11,7 @@ public class Main12852{
 		N = Integer.parseInt(br.readLine());
 		memo = new int[N+1];
 		
-		// bfs.
+		// bfs & backTracking
 		q.offer(1);
 		int qNum,tryNum=-1,qSize;
 		top:
